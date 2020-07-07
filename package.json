@@ -1,0 +1,11 @@
+{
+  "name": "stateful-mind",
+  "version": "1.0.0",
+  "description": "A state base class and manager to replace the verbose state management libraries.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zac-hills",
+  "license": "ISC"
+}
