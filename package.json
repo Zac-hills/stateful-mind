@@ -3,9 +3,20 @@
   "version": "1.0.0",
   "description": "A state base class and manager to replace the verbose state management libraries.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --config jestconfig.json",
+    "start": "node index.ts",
+    "build": "tsc"
   },
   "author": "zac-hills",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^3.9.6"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.4",
+    "jest": "^26.1.0",
+    "ts-jest": "^26.1.1"
+  }
 }
